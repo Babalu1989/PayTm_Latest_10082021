@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AddConsumer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Contract" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CA" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MeterID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConsumerName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InstallationAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConsumerMobileNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TariffCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InstallationDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InstallationReading_kwh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InstallationReading_kvah" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sanctionload_kwh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Sanctionload_kvah" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SendingOption" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Connection_disconnection" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="company_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="No_Hoardings" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Div_Code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Portion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Temp_Flag" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Account_Class" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddConsumerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddConsumerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckConnection">
+        <s:complexType />
+      </s:element>
+      <s:element name="CheckConnectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckConnectionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateBalance">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TransID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NetBalance" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ArgRechargeType_Flag" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Payment_Method" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Terminal_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Trans_Date" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Agent_No" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CA" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Duplicate_Flag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateBalanceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateBalanceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBillingData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsumerID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MeterID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBillingDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBillingDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddConsumerSoapIn">
+    <wsdl:part name="parameters" element="tns:AddConsumer" />
+  </wsdl:message>
+  <wsdl:message name="AddConsumerSoapOut">
+    <wsdl:part name="parameters" element="tns:AddConsumerResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckConnectionSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckConnection" />
+  </wsdl:message>
+  <wsdl:message name="CheckConnectionSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckConnectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBalanceSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateBalance" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBalanceSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBillingDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBillingData" />
+  </wsdl:message>
+  <wsdl:message name="GetBillingDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBillingDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddConsumerHttpGetIn">
+    <wsdl:part name="Contract" type="s:string" />
+    <wsdl:part name="CA" type="s:string" />
+    <wsdl:part name="MeterID" type="s:string" />
+    <wsdl:part name="ConsumerName" type="s:string" />
+    <wsdl:part name="InstallationAddress" type="s:string" />
+    <wsdl:part name="ConsumerMobileNo" type="s:string" />
+    <wsdl:part name="TariffCode" type="s:string" />
+    <wsdl:part name="InstallationDate" type="s:string" />
+    <wsdl:part name="InstallationReading_kwh" type="s:string" />
+    <wsdl:part name="InstallationReading_kvah" type="s:string" />
+    <wsdl:part name="Sanctionload_kwh" type="s:string" />
+    <wsdl:part name="Sanctionload_kvah" type="s:string" />
+    <wsdl:part name="SendingOption" type="s:string" />
+    <wsdl:part name="Connection_disconnection" type="s:string" />
+    <wsdl:part name="company_code" type="s:string" />
+    <wsdl:part name="No_Hoardings" type="s:string" />
+    <wsdl:part name="Div_Code" type="s:string" />
+    <wsdl:part name="Portion" type="s:string" />
+    <wsdl:part name="Temp_Flag" type="s:string" />
+    <wsdl:part name="Account_Class" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddConsumerHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckConnectionHttpGetIn" />
+  <wsdl:message name="CheckConnectionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBalanceHttpGetIn">
+    <wsdl:part name="TransID" type="s:string" />
+    <wsdl:part name="NetBalance" type="s:string" />
+    <wsdl:part name="ArgRechargeType_Flag" type="s:string" />
+    <wsdl:part name="Payment_Method" type="s:string" />
+    <wsdl:part name="Terminal_id" type="s:string" />
+    <wsdl:part name="Trans_Date" type="s:string" />
+    <wsdl:part name="Agent_No" type="s:string" />
+    <wsdl:part name="CA" type="s:string" />
+    <wsdl:part name="Duplicate_Flag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBalanceHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBillingDataHttpGetIn">
+    <wsdl:part name="ConsumerID" type="s:string" />
+    <wsdl:part name="MeterID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBillingDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AddConsumerHttpPostIn">
+    <wsdl:part name="Contract" type="s:string" />
+    <wsdl:part name="CA" type="s:string" />
+    <wsdl:part name="MeterID" type="s:string" />
+    <wsdl:part name="ConsumerName" type="s:string" />
+    <wsdl:part name="InstallationAddress" type="s:string" />
+    <wsdl:part name="ConsumerMobileNo" type="s:string" />
+    <wsdl:part name="TariffCode" type="s:string" />
+    <wsdl:part name="InstallationDate" type="s:string" />
+    <wsdl:part name="InstallationReading_kwh" type="s:string" />
+    <wsdl:part name="InstallationReading_kvah" type="s:string" />
+    <wsdl:part name="Sanctionload_kwh" type="s:string" />
+    <wsdl:part name="Sanctionload_kvah" type="s:string" />
+    <wsdl:part name="SendingOption" type="s:string" />
+    <wsdl:part name="Connection_disconnection" type="s:string" />
+    <wsdl:part name="company_code" type="s:string" />
+    <wsdl:part name="No_Hoardings" type="s:string" />
+    <wsdl:part name="Div_Code" type="s:string" />
+    <wsdl:part name="Portion" type="s:string" />
+    <wsdl:part name="Temp_Flag" type="s:string" />
+    <wsdl:part name="Account_Class" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddConsumerHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckConnectionHttpPostIn" />
+  <wsdl:message name="CheckConnectionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBalanceHttpPostIn">
+    <wsdl:part name="TransID" type="s:string" />
+    <wsdl:part name="NetBalance" type="s:string" />
+    <wsdl:part name="ArgRechargeType_Flag" type="s:string" />
+    <wsdl:part name="Payment_Method" type="s:string" />
+    <wsdl:part name="Terminal_id" type="s:string" />
+    <wsdl:part name="Trans_Date" type="s:string" />
+    <wsdl:part name="Agent_No" type="s:string" />
+    <wsdl:part name="CA" type="s:string" />
+    <wsdl:part name="Duplicate_Flag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBalanceHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBillingDataHttpPostIn">
+    <wsdl:part name="ConsumerID" type="s:string" />
+    <wsdl:part name="MeterID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBillingDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="AddConsumer">
+      <wsdl:input message="tns:AddConsumerSoapIn" />
+      <wsdl:output message="tns:AddConsumerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckConnection">
+      <wsdl:input message="tns:CheckConnectionSoapIn" />
+      <wsdl:output message="tns:CheckConnectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBalance">
+      <wsdl:input message="tns:UpdateBalanceSoapIn" />
+      <wsdl:output message="tns:UpdateBalanceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillingData">
+      <wsdl:input message="tns:GetBillingDataSoapIn" />
+      <wsdl:output message="tns:GetBillingDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service1HttpGet">
+    <wsdl:operation name="AddConsumer">
+      <wsdl:input message="tns:AddConsumerHttpGetIn" />
+      <wsdl:output message="tns:AddConsumerHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckConnection">
+      <wsdl:input message="tns:CheckConnectionHttpGetIn" />
+      <wsdl:output message="tns:CheckConnectionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBalance">
+      <wsdl:input message="tns:UpdateBalanceHttpGetIn" />
+      <wsdl:output message="tns:UpdateBalanceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillingData">
+      <wsdl:input message="tns:GetBillingDataHttpGetIn" />
+      <wsdl:output message="tns:GetBillingDataHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service1HttpPost">
+    <wsdl:operation name="AddConsumer">
+      <wsdl:input message="tns:AddConsumerHttpPostIn" />
+      <wsdl:output message="tns:AddConsumerHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckConnection">
+      <wsdl:input message="tns:CheckConnectionHttpPostIn" />
+      <wsdl:output message="tns:CheckConnectionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBalance">
+      <wsdl:input message="tns:UpdateBalanceHttpPostIn" />
+      <wsdl:output message="tns:UpdateBalanceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBillingData">
+      <wsdl:input message="tns:GetBillingDataHttpPostIn" />
+      <wsdl:output message="tns:GetBillingDataHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddConsumer">
+      <soap:operation soapAction="http://tempuri.org/AddConsumer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckConnection">
+      <soap:operation soapAction="http://tempuri.org/CheckConnection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBalance">
+      <soap:operation soapAction="http://tempuri.org/UpdateBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillingData">
+      <soap:operation soapAction="http://tempuri.org/GetBillingData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddConsumer">
+      <soap12:operation soapAction="http://tempuri.org/AddConsumer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckConnection">
+      <soap12:operation soapAction="http://tempuri.org/CheckConnection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBalance">
+      <soap12:operation soapAction="http://tempuri.org/UpdateBalance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillingData">
+      <soap12:operation soapAction="http://tempuri.org/GetBillingData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1HttpGet" type="tns:Service1HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="AddConsumer">
+      <http:operation location="/AddConsumer" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckConnection">
+      <http:operation location="/CheckConnection" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBalance">
+      <http:operation location="/UpdateBalance" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillingData">
+      <http:operation location="/GetBillingData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1HttpPost" type="tns:Service1HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="AddConsumer">
+      <http:operation location="/AddConsumer" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckConnection">
+      <http:operation location="/CheckConnection" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBalance">
+      <http:operation location="/UpdateBalance" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBillingData">
+      <http:operation location="/GetBillingData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://10.125.126.60:10011/BRPLService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://10.125.126.60:10011/BRPLService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1HttpGet" binding="tns:Service1HttpGet">
+      <http:address location="http://10.125.126.60:10011/BRPLService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1HttpPost" binding="tns:Service1HttpPost">
+      <http:address location="http://10.125.126.60:10011/BRPLService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,252 @@
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 1:50:27 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 1:50:27 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 6:25:25 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 6:25:25 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 7:55:24 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 11:08:25 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 11:08:25 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 11:19:24 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 11:19:24 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 11:35:25 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 11:35:25 AM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 1:09:25 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 1:09:25 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 1:10:24 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 1:10:24 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 1:42:25 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 3:10:26 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 3:10:26 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 3:21:25 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 3:21:25 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 5:11:24 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 5:11:24 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 7:23:26 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 7:23:26 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________
+Log Entry : 
+Team Name: Sajid
+Error Place: First Try Catch
+Pay Method: 
+Doc ID: 
+CA No: 
+Amount: 
+Error Time: 06/12/2020 9:43:25 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Paytmdatadetail() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 51
+   at PAYTMSchedular.Form1.HES_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 38
+_____________________________________________________________________
+Log Entry : 
+Team Name: Babalu
+Error Time: 06/12/2020 9:43:25 PM
+Error Message: ORA-12170: TNS:Connect timeout occurred
+Error Details:    at Trans.Get_SAP_UpdateData() in E:\PAYTMSchedular\PAYTMSchedular\DAL\Trans.cs:line 85
+   at PAYTMSchedular.Form1.SAP_DataUpdate() in E:\PAYTMSchedular\PAYTMSchedular\Form1.cs:line 144
+_____________________________________________________________________

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2019-01-24T04:24:10.9173519+05:30</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>C:\Users\Administrator\Desktop\pub</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/PrepaidService.dll">
+      <publishTime>06/07/2021 15:16:00</publishTime>
+    </File>
+    <File Include="bin/PrepaidService.pdb">
+      <publishTime>06/07/2021 15:16:00</publishTime>
+    </File>
+    <File Include="bin/PrepaidService.XmlSerializers.dll">
+      <publishTime>06/07/2021 15:16:02</publishTime>
+    </File>
+    <File Include="PaymentResponse.aspx">
+      <publishTime>06/27/2019 16:08:21</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>06/07/2021 15:16:04</publishTime>
+    </File>
+    <File Include="Web References/ISU/ISUService.disco">
+      <publishTime>07/15/2019 17:18:32</publishTime>
+    </File>
+    <File Include="Web References/ISU/ISUService.wsdl">
+      <publishTime>07/15/2019 17:18:32</publishTime>
+    </File>
+    <File Include="Web References/ISU/Reference.map">
+      <publishTime>07/15/2019 17:18:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/04/2021 11:40:00</publishTime>
+    </File>
+    <File Include="WebService1.asmx">
+      <publishTime>12/14/2018 09:48:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
